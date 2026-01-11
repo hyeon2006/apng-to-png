@@ -25,9 +25,7 @@ def extract_first_frames_numbered(input_folder, output_folder):
             print(f"[실패] {filename}: {e}")
 
 
-# --- 설정 ---
 input_dir = "./apng_files"
 output_dir = "./output_frames"
 
-# 실행
 extract_first_frames_numbered(input_dir, output_dir)
